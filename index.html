@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Polityka prywatności — WspółKoszyk</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f7f5;
+      --card: #ffffff;
+      --text: #122019;
+      --muted: #3d5248;
+      --accent: #1b6b4a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0c1410;
+        --card: #17231c;
+        --text: #e8f2ec;
+        --muted: #b8c9bf;
+        --accent: #6fcf9b;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 28px 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+    h1 { font-size: 1.75rem; margin: 0 0 8px; color: var(--accent); }
+    h2 { font-size: 1.15rem; margin: 28px 0 10px; }
+    p, li { color: var(--text); }
+    .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 24px; }
+    ul { padding-left: 1.2rem; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Polityka prywatności</h1>
+      <p class="meta">
+        Aplikacja mobilna <strong>WspółKoszyk</strong> (Android)<br />
+        Ostatnia aktualizacja: 28 lipca 2026
+      </p>
+
+      <p>
+        Niniejsza Polityka prywatności opisuje, jakie dane są zbierane i przetwarzane
+        w związku z korzystaniem z aplikacji WspółKoszyk („Aplikacja”).
+        Administratorem danych jest właściciel Aplikacji (kontakt poniżej).
+      </p>
+
+      <h2>1. Jakie dane zbieramy</h2>
+      <ul>
+        <li><strong>Dane konta:</strong> adres e-mail, imię/nazwa wyświetlana, hasło (przechowywane w postaci zahaszowanej na serwerze).</li>
+        <li><strong>Dane gospodarstwa domowego:</strong> nazwa mieszkania, kod zaproszenia, lista członków, role.</li>
+        <li><strong>Dane finansowe w ramach Aplikacji:</strong> wydatki (tytuł, kwota, kto zapłacił, udziały), salda, spłaty, listy zakupów.</li>
+        <li><strong>Paragony (opcjonalnie):</strong> zdjęcia lub pliki PDF wybrane przez użytkownika do odczytu tekstu (OCR) w celu ułatwienia dodania wydatku. Przetwarzanie OCR może odbywać się na urządzeniu lub z użyciem bibliotek rozpoznawania tekstu.</li>
+        <li><strong>Dane techniczne:</strong> token sesji (JWT) zapisany lokalnie na urządzeniu, podstawowe logi błędów po stronie serwera.</li>
+        <li><strong>Dane reklamowe:</strong> identyfikator reklamowy urządzenia oraz informacje o wyświetleniach reklam (Google AdMob) — patrz punkt 4.</li>
+      </ul>
+
+      <h2>2. W jakim celu przetwarzamy dane</h2>
+      <ul>
+        <li>utworzenie i obsługa konta użytkownika,</li>
+        <li>umożliwienie wspólnego zarządzania wydatkami i listami zakupów w gospodarstwie,</li>
+        <li>wyświetlanie sald, podsumowań miesięcznych i historii,</li>
+        <li>bezpieczeństwo (uwierzytelnianie, ochrona przed nadużyciami),</li>
+        <li>wyświetlanie reklam (monetyzacja Aplikacji).</li>
+      </ul>
+
+      <h2>3. Podstawa i miejsce przetwarzania</h2>
+      <p>
+        Dane konta oraz dane gospodarstwa są przechowywane na serwerze administratora
+        (backend Aplikacji) i są niezbędne do świadczenia usługi.
+        Hasła nie są przechowywane w postaci jawnej.
+        Komunikacja z serwerem powinna odbywać się w sposób zabezpieczony (zalecane HTTPS).
+      </p>
+
+      <h2>4. Reklamy (Google AdMob)</h2>
+      <p>
+        Aplikacja wyświetla reklamy za pośrednictwem Google AdMob.
+        Google może zbierać i przetwarzać m.in. identyfikator reklamowy urządzenia,
+        dane o przybliżonej lokalizacji/urządzeniu oraz interakcjach z reklamami
+        zgodnie z polityką Google.
+      </p>
+      <p>
+        Więcej informacji:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Polityka prywatności Google</a>
+        oraz
+        <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">informacje o AdMob</a>.
+      </p>
+      <p>
+        W ustawieniach Androida możesz ograniczyć personalizację reklam
+        (opcje dotyczące reklam / Privacy Sandbox / reset ID reklamowego — zależnie od wersji systemu).
+      </p>
+
+      <h2>5. Udostępnianie danych</h2>
+      <ul>
+        <li>Dane gospodarstwa są widoczne dla innych członków tego samego mieszkania (np. wydatki, salda, listy wspólne).</li>
+        <li>Dane reklamowe są przetwarzane przez Google (AdMob) w celu wyświetlania reklam.</li>
+        <li>Nie sprzedajemy danych osobowych użytkownikom trzecim w celach marketingowych poza mechanizmami reklamowymi opisanymi powyżej.</li>
+      </ul>
+
+      <h2>6. Przechowywanie i usuwanie</h2>
+      <p>
+        Dane przechowujemy tak długo, jak istnieje konto lub jest to potrzebne do działania Aplikacji
+        oraz wypełnienia obowiązków prawnych.
+        Możesz poprosić o usunięcie konta i powiązanych danych, kontaktując się na adres e-mail poniżej.
+        Usunięcie konta może uniemożliwić dalsze korzystanie z Aplikacji.
+      </p>
+
+      <h2>7. Uprawnienia na urządzeniu</h2>
+      <ul>
+        <li><strong>Internet</strong> — komunikacja z serwerem i reklamami,</li>
+        <li><strong>Aparat / pliki</strong> — opcjonalny skan lub import paragonu,</li>
+        <li><strong>ID reklamowe</strong> — wyświetlanie reklam.</li>
+      </ul>
+
+      <h2>8. Prawa użytkownika (RODO — jeśli dotyczy)</h2>
+      <p>
+        W zakresie przewidzianym prawem możesz żądać dostępu do danych, ich sprostowania,
+        usunięcia, ograniczenia przetwarzania lub wniesienia sprzeciwu, a także skargi
+        do organu nadzorczego (w Polsce: Prezes UODO).
+      </p>
+
+      <h2>9. Dzieci</h2>
+      <p>
+        Aplikacja nie jest kierowana do dzieci poniżej 16. roku życia.
+        Nie zbieramy świadomie danych dzieci.
+      </p>
+
+      <h2>10. Zmiany polityki</h2>
+      <p>
+        Polityka może być aktualizowana. Aktualna wersja będzie zawsze dostępna pod tym adresem URL.
+        Kontynuacja korzystania z Aplikacji po zmianach oznacza akceptację zaktualizowanej polityki,
+        o ile przepisy nie wymagają innej formy zgody.
+      </p>
+
+      <h2>11. Kontakt</h2>
+      <p>
+        W sprawach prywatności napisz na:
+        <a href="mailto:WSTAW_SWOJ_EMAIL@example.com">WSTAW_SWOJ_EMAIL@example.com</a>
+      </p>
+      <p class="meta">
+        Zastąp powyższy adres swoim prawdziwym e-mailem kontaktowym przed publikacją w Google Play.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
